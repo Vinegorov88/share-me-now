@@ -1,0 +1,175 @@
+#fileUrlDownload{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+#btnCopy{
+    position: relative;
+    width:180px;
+    height: 42px;
+    top: 50%;
+    left: 50%;
+    margin-top: 12px;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    background-color: #232323;
+}
+
+#uploadFileBtn{
+    position: relative;
+    left: 50%;
+    margin-left: -78px;
+}
+
+#btnDownload{
+    position: relative;
+    left: 50%;
+    margin-left: -6em;
+}
+
+.fileInformation{   
+    border-top: 1.8px dotted #232323;
+    border-bottom: 1.8px dotted #232323;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fileName{
+    color: #344230;
+    text-shadow: #999999 1px 1px 1px;
+}
+
+.sizeFile{
+    color: #303d2d;
+    font-weight: bold;
+    text-shadow: #fbfbfb 1.5px 1.5px 1px;
+
+}
+
+.progress{
+    width: 250px;
+    height: 30px;
+    margin:0 auto;
+}
+
+#msg{
+    position: relative;
+    margin: 0 auto;
+    top: 1px;
+    right:0px;
+    font-size: 12px;
+    text-align:center;
+    text-shadow: #ffffff 0.1px 0.1px 0.1px;
+    color: rgb(0, 0, 0);
+}
+
+input[type=text]{
+    border: 1px solid #232323;
+    border-radius: 4px;
+    width:362px;
+    text-shadow: 1px 1.3px #bed44b;
+    background-color: #e7e7e7;
+}
+
+button[type=submit] {
+    background: #6c757d;
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    margin-left: -101px;
+    margin-top: -16px;
+    text-align: center;
+}
+  
+#modal-cont {
+    position: relative;
+    background-color: #f3f2f2;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+input[type=button] #closeModal{
+    color: #bed44b;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+p{
+    font-size: 15px;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    float: right;
+    cursor: pointer;
+}
+  
+#modHeader {
+    padding: 2px 16px;
+    background-color: #31312e;
+    float: right;
+    color: white;
+}
+  
+#modHeader h2{
+    padding: 2px 16px;
+    background-color: #31312e;
+    text-align: center;
+    color: white;
+}
+
+#modBody {
+    padding: 2px 16px;
+}
+  
+#modFooter{
+    height: 30px;
+    background-color: #31312e;
+    color: #b3b3b3;
+}
+
+#modFooter #buttonMsg{
+    padding: 2px 4px 4px 4px;
+    width: 47px;
+    height: 28px;
+    background-color: #f3f2f2;
+    color: #31312e;
+}

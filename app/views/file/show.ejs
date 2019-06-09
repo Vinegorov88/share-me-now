@@ -1,0 +1,19 @@
+<%- include('../includes/header') %>
+
+<!-- Logo site -->
+<a href="http://localhost:8000"><img src="/images/logo.png" class="rounded mx-auto d-block" alt=""></a>
+
+<!-- Information about the file itself-->
+<div class="fileInformation" id="infoFile" style="display:none">
+    <div class="fileName"><%= originalName %></div>
+    <div class="sizeFile"><%= size %></div>   
+</div>
+  
+<!-- Button download file -->
+<div class="btn" id="btnDownload" name="downFile" style="display: none;"> 
+    <form method="get" action="/file/download/<%= fileName %>">      
+        <button type="submit">Свали файла</button>
+    </form>   
+</div>
+
+<%- include('../includes/footer') %>
